@@ -63,5 +63,17 @@ $('.logo').hover(function(){
     $('.logo h1').css('color','red');
     $('.logo svg').css('fill','red');
 })
-$('.imgbox').zoom();
+$('.imgbox').zoom({});
+$("#scrtop").on("click", function() {
+    $(window).scrollTop(0);
+});
+$("#scrtop1").on("click", function() {
+    $(window).scrollTop(0);
+});
+$("#scrtop2").on("click", function() {
+    $(window).scrollTop(0);
+});
+$("#scrtop3").on("click", function() {
+    $(window).scrollTop(0);
+});
 })
