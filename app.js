@@ -1,0 +1,67 @@
+$(document).ready(function(){
+    $('#jordan_li').click(function(){
+        $('#home').fadeOut(500);
+        $('#nike').fadeOut(500);
+        $('#adidas').fadeOut(500);
+        $('#yezzy').fadeOut(500);
+        $('#home_li').removeClass('active');
+        $('#nike_li').removeClass('active');
+        $('#adidas_li').removeClass('active');
+        $('#yezzy_li').removeClass('active');
+        $(this).addClass('active');
+        $('#jordan').fadeIn(1000);
+    })
+    $('#home_li').click(function(){
+       $('#jordan').fadeOut(500);
+       $('#nike').fadeOut(500);
+       $('#adidas').fadeOut(500);
+       $('#yezzy').fadeOut(500);
+       $('#nike_li').removeClass('active');
+        $('#jordan_li').removeClass('active');
+        $('#adidas_li').removeClass('active');
+        $('#yezzy_li').removeClass('active');
+       $(this).addClass('active');
+       $('#home').fadeIn(1000);
+   })
+   $('#nike_li').click(function(){
+       $('#home').fadeOut(500);
+       $('#jordan').fadeOut(500);
+       $('#adidas').fadeOut(500);
+       $('#yezzy').fadeOut(500);
+       $('#jordan_li').removeClass('active');
+        $('#home_li').removeClass('active');
+        $('#adidas_li').removeClass('active');
+        $('#yezzy_li').removeClass('active');
+       $(this).addClass('active');
+       $('#nike').fadeIn(1000);
+   })
+   $('#adidas_li').click(function(){
+    $('#home').fadeOut(500);
+    $('#jordan').fadeOut(500);
+    $('#nike').fadeOut(500);
+    $('#yezzy').fadeOut(500);
+    $('#jordan_li').removeClass('active');
+     $('#home_li').removeClass('active');
+     $('#nike_li').removeClass('active');
+     $('#yezzy_li').removeClass('active');
+     $(this).addClass('active');
+     $('#adidas').fadeIn(1000);
+})
+$('#yezzy_li').click(function(){
+    $('#home').fadeOut(500);
+    $('#jordan').fadeOut(500);
+    $('#nike').fadeOut(500);
+    $('#adidas').fadeOut(500);
+    $('#jordan_li').removeClass('active');
+     $('#home_li').removeClass('active');
+     $('#nike_li').removeClass('active');
+     $('#adidas_li').removeClass('active');
+     $(this).addClass('active');
+     $('#yezzy').fadeIn(1000);
+})
+$('.logo').hover(function(){
+    $('.logo h1').css('color','red');
+    $('.logo svg').css('fill','red');
+})
+$('.imgbox').zoom();
+})

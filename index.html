@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="shop.svg" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>My Shop</title>
+</head>
+<body>
+    <nav>
+        <div data-aos="fade-right" data-aos-duration="1500"  class="logo">
+            <h1>MyShop</h1>
+            <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="38.855px" height="38.856px" viewBox="0 0 38.855 38.856" style="enable-background:new 0 0 38.855 38.856;"
+	 xml:space="preserve">
+<g>
+	<path d="M38.854,34.629l-0.825-15.42c-0.045-0.837-0.733-1.49-1.572-1.49h-1.758c-0.26-2.58-2.058-4.585-4.229-4.585
+		s-3.974,2.005-4.232,4.585h-1.744l-0.441-8.266c-0.044-0.835-0.733-1.489-1.569-1.489h-3.634c-0.896-3.14-3.312-5.396-6.145-5.396
+		c-2.834,0-5.248,2.256-6.146,5.396H2.922c-0.837,0-1.525,0.654-1.571,1.489L0.002,34.629c-0.021,0.432,0.132,0.854,0.43,1.168
+		c0.297,0.312,0.71,0.489,1.143,0.489h22.078h0.176h13.457c0.433,0,0.847-0.178,1.144-0.489
+		C38.724,35.484,38.877,35.061,38.854,34.629z M12.699,5.717c1.154,0,2.195,0.905,2.807,2.248H9.893
+		C10.502,6.621,11.544,5.717,12.699,5.717z M22.158,33.141H3.232l1.18-22.029h1.781c0.041,0.959,0.219,1.896,0.521,2.769
+		C6.66,14.073,6.63,14.276,6.63,14.485c0,1.241,1.006,2.248,2.248,2.248c1.241,0,2.247-1.007,2.247-2.248
+		c0-1.014-0.67-1.869-1.592-2.15c-0.1-0.393-0.164-0.802-0.189-1.222h6.712c-0.026,0.42-0.092,0.829-0.19,1.222
+		c-0.922,0.281-1.592,1.137-1.592,2.15c0,1.241,1.006,2.248,2.247,2.248c1.241,0,2.248-1.007,2.248-2.248
+		c0-0.209-0.03-0.411-0.085-0.604c0.305-0.873,0.479-1.81,0.521-2.769h1.779l1.177,21.979L22.158,33.141z M30.467,15.608
+		c0.812,0,1.537,0.932,1.736,2.112h-3.475C28.93,16.538,29.655,15.608,30.467,15.608z M28.127,23.699
+		c-0.764,0-1.378-0.614-1.378-1.377s0.614-1.377,1.378-1.377c0.76,0,1.376,0.614,1.376,1.377S28.887,23.699,28.127,23.699z
+		 M32.808,23.699c-0.76,0-1.377-0.614-1.377-1.377s0.617-1.377,1.377-1.377c0.762,0,1.377,0.614,1.377,1.377
+		S33.569,23.699,32.808,23.699z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g><g></g></svg>
+ </div>
+    <ul> 
+        <li><a data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200" id="home_li" href="#" class="active">Home</a></li>
+        <li><a data-aos="fade-in" data-aos-duration="1000" data-aos-delay="300"  id="jordan_li" href="#" class="">Jordan</a></li>
+        <li><a data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400"  id='nike_li' href="#" class="">Nike</a></li>
+        <li><a data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500"  id="adidas_li" href="#">Adidas</a></li>
+        <li><a data-aos="fade-in" data-aos-duration="1000" data-aos-delay="600"  id="yezzy_li" href="#">Yezzy</a></li>
+    </ul>
+    <div data-aos="fade-out" data-aos-duration="1000" data-aos-delay="800" class="shop" data-pre="HeaderButtonGroup"><a aria-label="Favoris" title="Favoris" data-var="favoritesLink" data-type="click_navShortcut" data-path="favorites" class="pre-btn-header ripple mr3-sm d-sm-h d-lg-ib" href="https://www.nike.com/ma/favorites" data-pre="ILink"><svg width="24px" height="24px" fill="#111" viewBox="0 0 24 24"><path d="M21.11 4a6.6 6.6 0 0 0-4.79-1.92A6.27 6.27 0 0 0 12 3.84 6.57 6.57 0 0 0 2.89 4c-2.8 2.68-2.45 7.3.88 10.76l6.84 6.63A2 2 0 0 0 12 22a2 2 0 0 0 1.37-.54l.2-.19.61-.57c.6-.57 1.42-1.37 2.49-2.41l2.44-2.39 1.09-1.07c3.38-3.55 3.8-8.1.91-10.83zm-2.35 9.4l-.25.24-.8.79-2.44 2.39c-1 1-1.84 1.79-2.44 2.36L12 20l-6.83-6.68c-2.56-2.66-2.86-6-.88-7.92a4.52 4.52 0 0 1 6.4 0l.09.08a2.12 2.12 0 0 1 .32.3l.9.94.9-.94.28-.27.11-.09a4.52 4.52 0 0 1 6.43 0c1.97 1.9 1.67 5.25-.96 7.98z"></path></svg></a><div id="nav-cart" class="pre-acct-cart mr2-sm mr0-lg d-sm-ib" data-pre="Cart"><a data-var="anchor" title="Articles du panier: 0" aria-label="Articles du panier: 0" rel="nofollow" data-type="click_navShortcut" data-path="cart" class="icon-btn ripple d-sm-b" href="https://www.nike.com/cart" data-pre="ILink"><div class=""><svg width="24px" height="24px" fill="#000" viewBox="0 0 24 24"><path d="M16 7a1 1 0 0 1-1-1V3H9v3a1 1 0 0 1-2 0V3a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3a1 1 0 0 1-1 1z"></path><path d="M20 5H4a2 2 0 0 0-2 2v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a2 2 0 0 0-2-2zm0 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7h16z"></path></svg><span class="pre-jewel pre-cart-jewel text-color-primary-dark" style="visibility:hidden" data-var="jewel">0</span></div></a></div></div>
+    </nav>
+    <!-- Home Section-->
+    <section id="home" style="display: block;overflow:hidden">
+        <div class="home_container">
+            <div class="home_textleft">
+                <h1 data-aos="fade-right" data-aos-duration="1000">Welcome To MyShop</h1>
+                <p data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis debitis odit voluptatem! Neque eos repellendus aliquid laboriosam saepe beatae, cumque sit dolorem optio enim quo temporibus, quia laudantium! Voluptatum, maiores?</p>
+               <h3 data-aos="fade-right" data-aos-duration="1000">Location :</h3>
+               <p data-aos="fade-right" data-aos-duration="1000">15 Avenue Mohamed V CasaBlanca Morocco</p>
+               <a data-aos="zoom-out" data-aos-duration="2000" class="btn" href="#">View All</a>
+               <div data-aos="fade-right" data-aos-duration="1000" class="social">
+                <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="36.863px" height="36.863px" viewBox="0 0 36.863 36.863" style="enable-background:new 0 0 36.863 36.863;"
+	 xml:space="preserve">
+<g>
+	<path d="M5.134,30.463c0-1.326,0.698-2.086,1.979-2.086c1.281,0,1.979,0.76,1.979,2.086v4.314c0,1.324-0.698,2.086-1.979,2.086
+		c-1.279,0-1.979-0.762-1.979-2.086V30.463z M6.438,34.859c0,0.597,0.262,0.818,0.676,0.818s0.676-0.225,0.676-0.818v-4.479
+		c0-0.592-0.262-0.816-0.676-0.816s-0.676,0.226-0.676,0.816V34.859z M11.098,30.76v6.008H9.926v-8.297h1.636l1.337,4.967v-4.967
+		h1.162v8.297h-1.339L11.098,30.76z M16.837,28.471h1.304v7.111h2.146v1.186h-3.446L16.837,28.471L16.837,28.471z M20.858,28.471
+		h1.304v8.297h-1.304V28.471z M24.271,30.76v6.008H23.1v-8.297h1.635l1.34,4.967v-4.967h1.159v8.297h-1.338L24.271,30.76z
+		 M29.477,31.967h1.79v1.187h-1.79v2.432h2.253v1.187h-3.556v-8.297h3.556v1.188h-2.253V31.967z M28.937,11.196h-0.532
+		c-1.33-3.994-5.297-6.898-9.973-6.898c-4.674,0-8.643,2.904-9.973,6.898H7.925c-1.104,0-2.007,0.9-2.007,2.009v2.338
+		c0,1.104,0.902,2.007,2.007,2.007h0.478c1.913,7.402,9.733,9.482,9.821,9.508l0.204,0.051l0.201-0.049
+		c0.091-0.021,7.94-2.021,9.84-9.51h0.468c1.106,0,2.009-0.9,2.009-2.007v-2.339C30.945,12.097,30.043,11.196,28.937,11.196z
+		 M25.188,20.717h-5.265c-0.255-0.463-0.746-0.777-1.313-0.777c-0.826,0-1.496,0.67-1.496,1.496c0,0.828,0.67,1.496,1.496,1.496
+		c0.658,0,1.218-0.426,1.417-1.018h4.163c-2.218,2.309-4.975,3.232-5.757,3.459c-1.366-0.408-8.776-3.004-8.776-11.24
+		c0-0.138,0.004-0.271,0.014-0.406c2.269-0.426,4.923-1.139,5.822-2.229c0,0,0.358,2.034-0.959,2.872c0,0,4.67-0.717,5.51-2.152
+		c0,0,0.164,3.723,7.08,3.312C26.899,17.668,26.154,19.37,25.188,20.717z M32.967,12.416C32.679,5.304,26.527,0,18.432,0
+		C10.333,0,4.185,5.302,3.896,12.416c-0.582,0.269-0.971,0.8-0.971,1.425v1.062c0,0.902,0.809,1.609,1.841,1.609h0.802v-1.078
+		v-2.125v-0.687C5.748,6.359,11.215,1.677,18.432,1.677c7.221,0,12.689,4.688,12.863,10.955v0.678v2.125v1.076h0.802
+		c1.032,0,1.841-0.705,1.841-1.607v-1.062C33.938,13.216,33.549,12.684,32.967,12.416z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="35.193px" height="35.193px" viewBox="0 0 35.193 35.193" style="enable-background:new 0 0 35.193 35.193;"
+	 xml:space="preserve">
+<g>
+	<path d="M14.65,23.2c-0.43,0-0.674-0.244-0.674-0.823v-4.498c0-0.582,0.244-0.826,0.674-0.826c0.414,0,0.676,0.244,0.676,0.826
+		v4.498C15.326,22.956,15.063,23.2,14.65,23.2z M31.972,33.904v1.289H3.222v-1.289l2.064-0.643l-1.678-2.064L5.286,6.573h6.729
+		C12.856,2.692,14.994,0,17.563,0c2.568,0,4.707,2.692,5.549,6.573h6.926c0,0-0.225,7.834-0.129,10.442
+		c0.125,3.426,1.16,13.667,1.16,13.667l-0.902,2.062L31.972,33.904z M14.392,6.572h6.348c-0.66-2.616-1.967-4.254-3.173-4.254
+		C16.356,2.318,15.052,3.954,14.392,6.572z M12.827,12.932c0.996,0,1.805-0.809,1.805-1.807c0-0.564-0.26-1.068-0.668-1.4
+		c-0.004,0.181-0.008,0.359-0.008,0.543c0,0.641-0.521,1.16-1.16,1.16c-0.643,0-1.162-0.521-1.162-1.16
+		c0-0.168,0.002-0.334,0.008-0.5c-0.379,0.33-0.619,0.816-0.619,1.357C11.022,12.124,11.829,12.932,12.827,12.932z M14.65,24.381
+		c1.293,0,1.986-0.75,1.986-2.099V17.97c0-1.348-0.693-2.098-1.986-2.098c-1.293,0-1.984,0.75-1.984,2.098v4.312
+		C12.665,23.631,13.356,24.381,14.65,24.381z M15.868,29.083l5.17-13.116h-1.217l-5.175,13.116H15.868z M23.138,22.77
+		c0-1.348-0.693-2.098-1.986-2.098c-1.291,0-1.986,0.75-1.986,2.098v4.311c0,1.35,0.695,2.1,1.986,2.1c1.293,0,1.986-0.75,1.986-2.1
+		V22.77z M24.173,11.126c0-0.572-0.27-1.082-0.686-1.414c0.004,0.184,0.01,0.369,0.01,0.557c0,0.641-0.521,1.16-1.162,1.16
+		s-1.16-0.521-1.16-1.16c0-0.164-0.004-0.327-0.008-0.484c-0.369,0.329-0.604,0.809-0.604,1.344c0,0.998,0.808,1.807,1.806,1.807
+		C23.364,12.932,24.173,12.124,24.173,11.126z M21.151,21.852c-0.432,0-0.674,0.244-0.674,0.824v4.496
+		c0,0.582,0.242,0.825,0.674,0.825c0.412,0,0.674-0.243,0.674-0.825v-4.496C21.825,22.096,21.563,21.852,21.151,21.852z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="40.203px" height="40.203px" viewBox="0 0 38.203 27.203" style="enable-background:new 0 0 38.203 38.203;"
+	 xml:space="preserve">
+<g>
+	<path d="M10.417,14.548c0.104,0.115,0.154,0.293,0.154,0.531s-0.056,0.414-0.166,0.529c-0.113,0.114-0.285,0.171-0.517,0.171H8.866
+		v-1.405h1.072C10.154,14.373,10.313,14.432,10.417,14.548z M38.203,19.897l-0.186,2.888l-0.797,0.555v1.779h-1.425
+		c0.086,0.293,0.134,0.604,0.134,0.922c0,1.828-1.488,3.315-3.316,3.315s-3.316-1.487-3.316-3.315c0-0.209,0.021-0.414,0.061-0.611
+		c-0.229,0.068-0.428,0.061-0.428,0.061h-6.08c-0.186-0.369,0.246-0.738,0.246-0.738H28.5c0.613-0.43-0.062-0.735-0.062-0.735
+		h-5.526c-0.615,0.185-0.738,1.166-0.738,1.166H9.828v-1.104c0,0-0.326,0-0.836,0c0.406,0.551,0.65,1.229,0.65,1.967
+		c0,1.828-1.488,3.315-3.316,3.315S3.01,27.873,3.01,26.044c0-0.736,0.244-1.414,0.65-1.967c-0.17,0-0.33,0-0.467,0
+		C1.473,24.078,0,23.524,0,23.524v-1.965h2.271H2.38c-0.103-0.188-0.16-0.408-0.16-0.64V10.194c0-0.746,0.605-1.351,1.352-1.351
+		h17.123c0.746,0,1.352,0.604,1.352,1.351v10.724c0,0.231-0.059,0.449-0.16,0.641h1.271V10.256h7.187l3.625,5.098
+		c3.069,0.492,2.579,1.659,2.579,1.659h-0.799v1.535h1.535v0.982L38.203,19.897z M4.337,18.676h0.449h0.446v-2.188h1.897v-0.464
+		v-0.461H5.232v-1.168h2.144v-0.464V13.47H4.337V18.676z M8.167,26.039c0-1.018-0.826-1.844-1.842-1.844
+		c-1.018,0-1.844,0.826-1.844,1.844c0,1.017,0.826,1.843,1.844,1.843C7.341,27.881,8.167,27.055,8.167,26.039z M11.542,18.541
+		c-0.07-0.036-0.117-0.096-0.142-0.181c-0.024-0.085-0.034-0.237-0.034-0.457V17.32c0-0.496-0.141-0.849-0.418-1.06
+		c-0.033-0.025-0.072-0.049-0.113-0.07c0.095-0.052,0.179-0.117,0.255-0.195c0.253-0.257,0.378-0.613,0.378-1.069
+		c0-0.474-0.125-0.835-0.376-1.083c-0.253-0.248-0.618-0.372-1.101-0.372H8.417H7.97v5.205h0.449h0.447V16.65h0.986
+		c0.227,0,0.389,0.063,0.482,0.188c0.094,0.124,0.14,0.331,0.134,0.621l-0.005,0.298c-0.002,0.16,0.008,0.329,0.027,0.506
+		c0.021,0.177,0.045,0.314,0.076,0.411h0.975L11.542,18.541L11.542,18.541z M15.501,17.751h-2.344V16.41h2.067v-0.464v-0.461h-2.067
+		v-1.09h2.262v-0.464V13.47h-3.157v5.205h3.239V18.21V17.751z M19.467,17.751h-2.345V16.41h2.067v-0.464v-0.461h-2.067v-1.09h2.264
+		v-0.464V13.47h-3.159v5.205h3.24V18.21V17.751z M26.777,16.15h-2.148v0.86C27.455,17.011,26.777,16.15,26.777,16.15z
+		 M32.307,16.089l-2.703-4.668h-4.729l-0.062,3.869l4.358-0.061l0.492,0.859L32.307,16.089L32.307,16.089z M34.455,26.039
+		c0-1.018-0.826-1.844-1.843-1.844s-1.843,0.826-1.843,1.844c0,1.017,0.826,1.843,1.843,1.843
+		C33.628,27.881,34.455,27.055,34.455,26.039z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+
+               </div>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1500" class="home_imgright">
+                <img src="adidaspp.png">
+            </div>
+        </div>
+        <div class="sponsors">
+            <h1>Our Sponsors ❤</h1>
+            <div class="sponsors_container">
+                <div class="box" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="">
+                    <div class="imgbox1">
+                        <img src="sponsors/pic1.png" alt="">
+                    </div>
+                </div>
+                <div class="box" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="">
+                    <div class="imgbox1">
+                        <img src="sponsors/pic2.png" alt="">
+                    </div>
+                </div>
+                <div class="box" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="">
+                    <div class="imgbox1">
+                        <img src="sponsors/pic3.png" alt="">
+                    </div>
+                </div>
+                <div class="box" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="">
+                    <div class="imgbox1">
+                        <img src="sponsors/pic4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sponsors">
+            <h1>Payment Methods <span>💳</span></h1>
+            <div class="sponsors_container">
+                <div class="box" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="imgbox1">
+                        <img src="cards/pic1.png" alt="">
+                    </div>
+                </div>
+                <div class="box" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="imgbox1">
+                        <img src="cards/pic2.png" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgbox1" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="200">
+                        <img src="cards/pic3.png" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgbox1" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="200">
+                        <img src="cards/pic4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Jordan Section-->
+    <section id="jordan" style="display: none;">
+        <div class="jordan_container">
+            <div class="box">
+                <div class="imgbox">
+                    <img src="jordan/pic1.jpg">
+                </div>
+                <h3>AIR JORDAN 1 MID
+                    "Banned 2020"</h3>
+                <h5>$165.00</h5><h5 class="solde">$180.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="jordan/pic2.jpg">
+                </div>
+                <h3>AIR JORDAN 1 MID
+                    "Banned 2020"</h3>
+                <h5>$165.00</h5><h5 class="solde">$180.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="jordan/pic3.jpg">
+                </div>
+                <h3>AIR JORDAN 1 MID
+                    "Banned 2020"</h3>
+                <h5>$165.00</h5><h5 class="solde">$180.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="jordan/pic4.jpg">
+                </div>
+                <h3>AIR JORDAN 1 MID
+                    "Banned 2020"</h3>
+                <h5>$165.00</h5><h5 class="solde">$180.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="jordan/pic5.jpg">
+                </div>
+                <h3>AIR JORDAN 1 MID
+                    "Banned 2020"</h3>
+                <h5>$165.00</h5><h5 class="solde">$180.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="jordan/pic6.jpg">
+                </div>
+                <h3>AIR JORDAN 1 MID
+                    "Banned 2020"</h3>
+                <h5>$165.00</h5><h5 class="solde">$180.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+        </div>
+        <div class="copyright">
+        <h4>© 2021 NaoufelBahassoune</h4>
+        </div>
+    </section>
+    <!-- Nike Section -->
+    <section id="nike" style="display: none;">
+        <div class="jordan_container">
+            <div class="box">
+                <div class="imgbox">
+                    <img src="nike/pic1.jpg">
+                </div>
+                <h3>AIR FORCE 1 LOW
+"Stussy - Black"</h3>
+                <h5>$450.00</h5><h5 class="solde">$490.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="nike/pic2.jpg">
+                </div>
+                <h3>AIR FORCE 1 LOW
+"Stussy - Black"</h3>
+                <h5>$450.00</h5><h5 class="solde">$490.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="nike/pic3.jpg">
+                </div>
+                <h3>AIR FORCE 1 LOW
+"Stussy - Black"</h3>
+                <h5>$450.00</h5><h5 class="solde">$490.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="nike/pic4.jpg">
+                </div>
+                <h3>AIR FORCE 1 LOW
+"Stussy - Black"</h3>
+                <h5>$450.00</h5><h5 class="solde">$490.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="nike/pic5.jpg">
+                </div>
+                <h3>AIR FORCE 1 LOW
+"Stussy - Black"</h3>
+                <h5>$450.00</h5><h5 class="solde">$490.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="nike/pic6.jpg">
+                </div>
+                <h3>AIR FORCE 1 LOW
+"Stussy - Black490.00
+                <h5>$450.00</h5><h5 class="solde">$490.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+        </div>
+        <div class="copyright">
+        <h4>© 2021 NaoufelBahassoune</h4>
+        </div>
+    </section>
+    <!--Adidas Section-->
+    <section id="adidas" style="display: none;">
+        <div class="jordan_container">
+            <div class="box">
+                <div class="imgbox">
+                    <img src="adidas/pic1.jpg">
+                </div>
+                <h3>ADIDAS 
+"Pusha T - Tech "</h3>
+                <h5>$180.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="adidas/pic2.jpg">
+                </div>
+                <h3>ADIDAS 
+"Pusha T - Tech "</h3>
+                <h5>$180.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="adidas/pic3.jpg">
+                </div>
+                <h3>ADIDAS 
+"Pusha T - Tech "</h3>
+                <h5>$180.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="adidas/pic4.jpg">
+                </div>
+                <h3>ADIDAS 
+"Pusha T - Tech "</h3>
+                <h5>$180.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="adidas/pic5.jpg">
+                </div>
+                <h3>ADIDAS 
+"Pusha T - Tech "</h3>
+                <h5>$180.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="adidas/pic6.jpg">
+                </div>
+                <h3>ADIDAS 
+"Pusha T - Tech "
+                <h5>$180.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+        </div>
+        <div class="copyright">
+        <h4>© 2021 NaoufelBahassoune</h4>
+        </div>
+    </section> 
+    <!--Yezzy Section-->
+    <section id="yezzy" style="display: none;">
+        <div class="jordan_container">
+            <div class="box">
+                <div class="imgbox">
+                    <img src="yezzy/pic1.jpg">
+                </div>
+                <h3>YEEZY BOOST 380
+"MIST"</h3>
+                <h5>$170.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="yezzy/pic2.jpg">
+                </div>
+                <h3>YEEZY BOOST 380
+"MIST"</h3>
+                <h5>$160.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="yezzy/pic3.jpg">
+                </div>
+                <h3>YEEZY BOOST 380
+"MIST"</h3>
+                <h5>$190.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="yezzy/pic4.jpg">
+                </div>
+                <h3>YEEZY BOOST 380
+"MIST"</h3>
+                <h5>$170.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="yezzy/pic5.jpg">
+                </div>
+                <h3>YEEZY BOOST 380
+"MIST"</h3>
+                <h5>$190.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="yezzy/pic6.jpg">
+                </div>
+                <h3>YEEZY BOOST 380
+"MIST"
+                <h5>$120.00</h5><h5 class="solde">$220.00</h5>
+                <a href="#">Buy <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="white" width="36px" height="36px"><g><rect fill="none" height="24" width="24"/><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"/></g></svg></a>
+            </div>
+        </div>
+        <div class="copyright">
+        <h4>© 2021 NaoufelBahassoune</h4>
+        </div>
+    </section>
+    <script src="jquery.zoom.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: false,
+        });
+    </script>
+</body>
+</html>
